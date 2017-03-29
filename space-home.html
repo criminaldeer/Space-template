@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Space</title>
+    <link rel="stylesheet" href="home-style.css">
+    <meta name="viewport" content="width=device-width">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script rel="text/javascript" src="home-js.js"></script>
+</head>
+<body>
+    <header>
+        <img class="header-logo" src="images/logo.png" alt="logo-picture"/>
+        <img id="mobile-menu" src="images/mobile/mobile-menu.png" alt="mobile menu"/>
+        <img id="close-menu" src="images/mobile/mobile-close.png" alt="close menu"/>
+        <div id="drop-down-menu">
+            <a href="#" target="_self">home</a>
+            <a href="#" target="_self">about</a>
+            <a href="#" target="_self">projects <img src="images/mobile/mobile-expand.png" alt="expand menu" id="expand-project"/></a>
+            <img id="collapse-project" src="images/mobile/mobile-collapse.png" alt="expand menu"/>
+            <a id="projects-expanded" href="#" target="_self">Proj 1</a>
+            <a href="#" target="_self">blog <img id="expand-blog" src="images/mobile/mobile-expand.png" alt="expand menu"/>
+                <img id="collapse-blog" src="images/mobile/mobile-collapse.png" alt="expand menu"/>
+            </a>
+            <a id="blog-expanded" href="#" target="_self">Single post</a>
+            <a href="#" target="_self">contact</a>
+        </div>
+        <nav>
+            <a href="space-home.html" target="_self">home</a>
+            <a href="#" target="_self">about</a>
+            <a href="#" target="_self" id="hover-project">projects</a>
+            <a href="#" target="_self" id="hover-blog">blog</a>
+            <a href="#" target="_self">contact</a>
+        </nav>
+    </header>
+    <!--<a href="#" target="_self" id="hidden-project">Proj1</a>
+    <a href="#" target="_self" id="hidden-blog">Single post</a>-->
+    <div class="content">
+        <div class="cover clearfix">
+            <img class="overelay-img" src="images/satellite.png" alt="satellite"/>
+            <div class="cover-title clearfix">
+                <h1>soyuz tma-m</h1>
+                <p class="subtitle">Spacecraft</p>
+                <a href="#" target="_self" class="info-link">Read more</a>
+            </div>
+            <div class="projects-catalogue">
+                <h3>featured projects</h3>
+                <a href="#" target="_blank" class="project-links"><img src="images/project-image1.jpg"></a>
+                <a href="#" target="_blank" class="project-links"><img src="images/project-image2.jpg"></a>
+                <a href="#" target="_blank" class="project-links"><img src="images/project-image3.jpg"></a>
+                <a href="#" target="_blank" class="project-links"><img src="images/project-image4.jpg"></a>
+            </div>
+        </div>
+        <div class="general-info-block">
+            <h2>our mission</h2>
+            <p class="text-block">This website template has been designed by Free Website Templates for you, for free.
+                You can replace all this text with your own text.</p>
+        </div>
+        <div class="context-block clearfix">
+            <div class="video-block clearfix">
+                <h2>featured video</h2>
+                <video width="450" height="300" controls="controls">
+                    <source src="TOP 10 Future Spacecraft.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="blog-block">
+                <h2>latest blog</h2>
+                <div class="blog-context">
+                    <img src="images/finding-planet.jpg" alt="A new planet"/>
+                    <p class="title-blog">finding planet X-123</p>
+                    <span>February 6, 2023</span>
+                    <a href="#" target="_blank">read more</a>
+                </div>
+                <hr>
+                <div class="blog-context">
+                    <img src="images/new-satellitedish.JPG" alt="A new satellite dish"/>
+                    <p class="title-blog">new satellite dish</p>
+                    <span>February 3, 2023</span>
+                    <a href="#" target="_blank">read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="social-block">
+            <span class="social-text">follow our missions on </span>
+            <a href="#" target="_self"><img src="images/twitter.png" alt="Twitter"/></a>
+            <a href="#" target="_self"><img src="images/facebook.png" alt="Facebook"/></a>
+            <a href="#" target="_self"><img src="images/googlePlus.png" alt="Google Plus"/></a>
+            <a href="#" target="_self"><img src="images/pinteresr.png" alt="Pinterest"/></a>
+        </div>
+        <div class="copyright">
+            <p>© 2023 BY SPACE PROSPECTION | ALL RIGHTS RESERVED</p>
+        </div>
+    </footer>
+</body>
+</html>
