@@ -1,0 +1,90 @@
+.main-info {
+    background-image: url(images/bg-about.jpg);
+    background-size: cover;
+    padding-top:14%;
+    padding-bottom: 8%;
+}
+.main-info span {
+    text-transform: uppercase;
+    color: white;
+    font-size: 34px;
+    margin-left: 46%;
+}
+.main-info h1 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.main-info p {
+    font-family: serif;
+    width:80%;
+    margin-left:10%;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.main-info a {
+    color: white;
+    text-decoration: underline;;
+}
+.info-block, .advertise-block, .details-block   {
+    background-color: #630031;
+    color: white;
+    font-size: 18px;
+    font-family: Serif;
+    display: inline-block;
+    vertical-align: top;
+    outline:none;
+    margin:0;
+}
+.info-block a, .advertise-block a, .details-block a{
+    color: white;
+    text-decoration: underline;
+}
+.text {
+    float: left;
+    width: 50%;
+    margin-left: 10%;
+    padding-bottom: 2px;
+}
+h3 {
+    margin-top: 6%;
+    color: grey;
+    text-transform: uppercase;
+}
+.info-block img {
+    float: right;
+    margin-right: 10%;
+    padding-top: 28px;
+    padding-bottom: 2%;
+}
+.advertise-block {
+    background-color: black;
+    padding: 8% 0;
+}
+.advertise-block img {
+    float: left;
+    margin-left: 14%;
+    margin-right: 3%;
+}
+.advertise-block h3 {
+    margin-top: 3%;
+    margin-left: 2%;
+}
+.advertise-block p {
+    width: 86%;
+    font-size: 21px;
+}
+.details-block {
+    background-color: #3c0f38;
+    margin-top: -1px;
+    padding-bottom: 5%;
+}
+.details-block h3, .details-block p {
+    text-align: center;
+}
+.details-block p {
+    width: 68%;
+    margin-left: 16%;
+    font-size: 19px;
+}

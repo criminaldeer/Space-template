@@ -1,0 +1,347 @@
+@font-face {
+    font-family: 'Audiowide';
+    src:  url('fonts/audiowide-regular-webfont.woff') format('woff2');
+}
+body {
+    margin: 0 auto;
+    min-width: 1080px;
+    width: 100%;
+    font-family: Audiowide;
+    overflow-x: hidden;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+header {
+    width: 100%;
+    background-image: url("images/bg-transparent1.png");
+    position: absolute;
+    height: 60px;
+}
+.header-logo {
+    margin-left: 15%;
+    margin-right: 2%;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+#mobile-menu {
+    display: none;
+    float: right;
+    margin-right: 1%;
+    margin-top: 1%;
+    width: 90px;
+    cursor: pointer;
+}
+#close-menu {
+    display: none;
+    float: right;
+    margin-right: 1%;
+    margin-top: 1%;
+    width: 90px;
+    cursor: pointer;
+}
+#drop-down-menu {
+    display: none;
+    width: 75%;
+    margin-left: 23%;
+    margin-top: -4px;
+}
+#drop-down-menu a {
+    font-family: Tahoma, serif;
+    display: block;
+    width: 100%;
+    padding: 1% 0;
+    background-color: #630a3c;
+    border: 1px white solid;
+    font-size: 30px;
+    padding-left: 14px;
+    text-transform: uppercase;
+    color: white;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    border-radius: 5px;
+}
+#drop-down-menu a:hover {
+    background-color: black;
+}
+#drop-down-menu a#blog-expanded, #drop-down-menu a#projects-expanded {
+    display: none;
+}
+#expand-blog, #expand-project {
+    cursor: pointer;
+    border: 1px white solid;
+    float: right;
+    margin-right: 16px;
+    width: 38px;
+}
+#collapse-project {
+    margin-top: -47px;
+}
+#collapse-blog {
+    margin-right: 14px;
+}
+#collapse-blog, #collapse-project {
+    display: none;
+    cursor: pointer;
+    border: 1px white solid;
+    float: right;
+    width: 38px;
+}
+#close-menu {
+    display: none;
+}
+#hidden-project {
+    margin-left: 51%;
+    margin-top: -0.4%;
+
+}
+#hidden-blog {
+    margin-left: 1.5%;
+}
+#hidden-project, #hidden-blog {
+    background-color: #620031;
+    color: #ffffff;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 60px;
+    min-height: 60px;
+    padding: 0 10px;
+    text-align: center;
+    text-transform: uppercase;
+    width: auto;
+}
+nav {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 20px;
+}
+nav a {
+    text-transform: uppercase;
+    color: white;
+    padding: 20px 24px 19px 24px;
+}
+nav a:hover {
+    background-color: #620031;
+}
+footer {
+    min-height: 200px;
+}
+.social-block {
+    background-color: #a3a3a3;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    height: 100px;
+}
+.social-text {
+    display: inline-block;
+    margin-top: 2.6%;
+    margin-right: 4%;
+}
+.social-block a {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.5%;
+}
+.social-block a:hover {
+    opacity: 0.7;
+}
+.social-block a:nth-of-type(2) {
+    margin-right: 1%;
+}
+.copyright {
+    font-family: Tahoma, serif;
+    font-size: 14px;
+}
+.copyright p {
+    text-align: center;
+    padding: 2.9%;
+}
+
+@media only screen and (min-width: 1681px) and (max-width: 1920px) {
+    header, .header-logo {
+        height: 100px;
+    }
+
+    nav a {
+        font-size: 22px;
+        padding-top: 40px;
+        padding-bottom: 34px;
+    }
+
+    nav {
+        padding-top: 37px;
+    }
+
+    .social-block {
+        height: 140px;
+    }
+
+    .social-text {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 1451px) and (max-width: 1680px) {
+    header {
+        height: 80px;
+    }
+
+    .header-logo {
+        height: 80px;
+    }
+
+    nav {
+        padding-top: 30px;
+    }
+
+    nav a {
+        padding: 29px 24px;
+        font-size: 18px;
+    }
+
+    .social-text {
+        margin-top: 2.1%;
+    }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1450px) {
+    .social-text {
+        margin-top: 2.35%;
+    }
+}
+@media only screen and (min-width: 1081px) and (max-width: 1439px) {
+    header {
+        width: 100%;
+    }
+
+    .header-logo {
+        margin-left: 7%;
+    }
+
+    .social-text {
+        margin-top: 2.8%;
+    }
+
+    .copyright p {
+        padding: 3.3%;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1080px){
+    .header-logo {
+        margin-left: 7%;
+    }
+    .social-text {
+        margin-top: 3.25%;
+    }
+    .copyright p {
+        padding: 3.25%;
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    header {
+        width: 140%;
+        height: 115px;
+    }
+    .header-logo {
+        width: 40%;
+        margin-left: 1%;
+        margin-top: 1.5%;
+    }
+    nav {
+        display: none;
+    }
+    #mobile-menu {
+        display: inline-block;
+    }
+    .social-text {
+        margin-top: 3.15%;
+    }
+    .copyright p {
+        padding: 3.15%;
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+    header {
+        width: 254%;
+        height: 140px;
+    }
+    .header-logo {
+        margin-left: 1%;
+        width: 610px;
+        margin-top: 1%;
+    }
+    nav {
+        display: none;
+    }
+    #mobile-menu {
+        display: block;
+        width: 114px;
+    }
+    .social-text {
+        margin-top: 3.25%;
+    }
+    .copyright {
+        padding: 3.25%;
+    }
+}
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    header {
+        width: 254%;
+        height: 140px;
+    }
+    .header-logo {
+        margin-left: 1%;
+        width: 610px;
+        margin-top: 1%;
+    }
+    nav {
+        display: none;
+    }
+    #mobile-menu {
+        display: block;
+        width: 114px;
+    }
+    .social-text {
+        margin-top: 3.25%;
+    }
+    .copyright {
+        padding: 3.25%;
+    }
+}
+@media only screen and (max-width: 320px){
+    header {
+        width: 254%;
+        height: 140px;
+    }
+    .header-logo {
+        margin-left: 1%;
+        width: 610px;
+        margin-top: 1%;
+    }
+    nav {
+        display: none;
+    }
+    #mobile-menu {
+        display: block;
+        width: 114px;
+        margin-right: -31%;
+    }.social-text {
+         margin-top: 3.25%;
+     }
+    .copyright {
+        padding: 3.25%;
+    }
+}
